@@ -1,0 +1,27 @@
+# Node.js
+node_modules/
+
+# Python
+venv/
+__pycache__/
+*.pyc
+
+# Environment files
+.env
+
+# Build folders
+dist/
+build/
+
+# Logs
+*.log
+
+# Datasets / Models / Large files
+dataset/
+*.h5
+*.model
+*.zip
+*joblib
+
+# Ignore large dataset files
+ai/sign_data.csv
